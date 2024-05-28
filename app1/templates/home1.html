@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            background-color: #6086bb;
+            font-size: larger;
+        }
+        div{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to the Mental Health Assessment</h1>
+        <a href="{{ url_for('phq9') }}">Take the PHQ-9 Survey</a><br>
+        <a href="{{ url_for('gad7') }}">Take the GAD-7 Survey</a>
+    </div>
+</body>
+</html>
