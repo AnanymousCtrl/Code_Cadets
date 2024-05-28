@@ -53,7 +53,7 @@
           padding: 22px;
         }
 
-        .container2 h1{
+        .container2 h1, h2{
           text-align: center;
           justify-content: center;
           font-size: 3.5rem;
@@ -150,6 +150,21 @@
           display: block;
         }
 
+        #bot{
+          font-size: 2rem;
+          text-align: center;
+        }
+
+        #btn{
+            background-color: #1b69ae;
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
         .footer{
           background-color: #081c2e;
           z-index: 100;
@@ -184,9 +199,9 @@
         <a href="{{ url_for('gad7') }}">Take the GAD-7 Survey</a>
         <h1>Mental Health Chatbot</h1>
         <form id="bot" method="POST" action="/predict">
-            <label for="text">Enter your text:</label><br><br>
-            <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>
-            <input type="submit" value="Submit">
+            <label for="text">How do you feel right now:</label><br>
+            <textarea id="text" name="text" rows="3" cols="30"></textarea><br>
+            <input id="btn" type="submit" value="Submit">
         </form>
         <h2>Prediction: {{ prediction }}</h2> 
       </div>
