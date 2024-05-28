@@ -182,15 +182,15 @@
         <h1>Welcome to the Mental Health Assessment</h1>
         <a href="{{ url_for('phq9') }}">Take the PHQ-9 Survey</a><br>
         <a href="{{ url_for('gad7') }}">Take the GAD-7 Survey</a>
+        <h1>Mental Health Chatbot</h1>
+        <form id="bot" method="POST" action="/predict">
+            <label for="text">Enter your text:</label><br><br>
+            <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <h2>Prediction: {{ prediction }}</h2> 
       </div>
 
-    <h1>Mental Health Chatbot</h1>
-    <form id="bot" method="POST" action="/predict">
-        <label for="text">Enter your text:</label><br><br>
-        <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    <h2>Prediction: {{ prediction }}</h2> 
       
     </div>
 
