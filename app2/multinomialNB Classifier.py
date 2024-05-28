@@ -1,5 +1,5 @@
 import pandas as pd
-data = pd.read_csv('datam.csv')
+data = pd.read_csv('app2\datam.csv')
 print(data.head())
 
 import nltk
@@ -48,7 +48,7 @@ def predict_mental_health(Text):
     prediction = model.predict(vectorized_text)
     return prediction[0]
 
-new_text = "hii how are you"
+new_text = "i have enthusiastic mood"
 prediction = predict_mental_health(new_text)
 print('Prediction:', predict_mental_health(new_text))
 
