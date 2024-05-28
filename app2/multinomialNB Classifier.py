@@ -48,7 +48,7 @@ def predict_mental_health(Text):
     prediction = model.predict(vectorized_text)
     return prediction[0]
 
-new_text = "i am living life to the fullest"
+new_text = "i am not good in mood any more now"
 prediction = predict_mental_health(new_text)
 print('Prediction:', predict_mental_health(new_text))
 
