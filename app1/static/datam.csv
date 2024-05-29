@@ -185,7 +185,6 @@ Making a positive impact no matter how small or every bit counts! (meaningful),0
 Feeling carefree and lighthearted or time to unwind and have some fun! (joyous),0
 There's always something to be thankful for even on challenging days. (appreciative),0
 Feeling content and at peace with where I am in life. (harmonious),0
-,
 A shroud of gloom hangs over me. I can't seem to find the light. (despondent),1
 Every step forward feels like wading through mud. So heavy and discouraging. (disheartened),1
 My former joy feels like a distant memory. Where has it all gone? (melancholy),1
@@ -232,3 +231,106 @@ A constant feeling of dread hangs over me like a dark cloud that won't dissipate
 Focusing on things outside my control fuels my anxiety. (helpless),1
 Avoiding situations that trigger my anxiety but it restricts my life. (withdrawn),1
 Feeling like a prisoner in my own world.,1
+I'm going through a gray spell today. (Not feeling myself),2
+"Just coasting along, not feeling particularly inspired. (Just going through the motions)",2
+"A bit under the weather today, but nothing major. (Not at my best)",2
+Stuck in a bit of a repetitive loop lately. (Kind of in a rut),2
+"Feeling a little flat today, lacking my usual energy. (Feeling a bit blah)",2
+"My mood is kind of neutral today, neither positive nor negative. (Neutral)",2
+"Just taking things one step at a time, not rushing anything. (Neutral)",2
+In a state of calm acceptance today. (Neutral),2
+Going with the flow and seeing where the day takes me. (Neutral),2
+My emotional landscape is pretty even today. (Neutral),2
+"Not feeling particularly high or low, just cruising along. (Neutral)",2
+My mood is in a state of quiet neutrality today. (Neutral),2
+Today's a day for observation rather than strong emotions. (Neutral),2
+Taking a balanced approach to things today. (Neutral),2
+"Neither excited nor discouraged, just maintaining a steady pace. (Neutral)",2
+My internal compass is pointing towards neutrality today. (Neutral),2
+My emotional temperature is lukewarm today. (Neutral),2
+"A day of neither sunshine nor rain, just a calm atmosphere. (Neutral)",2
+Approaching things with a detached sense of neutrality. (Neutral),2
+Today's mood: a blank canvas waiting for new experiences. (Neutral),2
+"Neither enthusiastic nor disappointed, just taking things as they come. (Neutral)",2
+"My emotional state is like a still pond today, reflecting the world around me. (Neutral)",2
+"Just existing in the present moment, not dwelling on the past or future. (Neutral)",2
+A day for quiet contemplation and reflection. (Neutral),2
+"My mood today is like a gentle breeze, neither forceful nor stagnant. (Neutral)",2
+Feeling content with the way things are right now. (Neutral),2
+"Not striving for excitement, just enjoying the simple things. (Neutral)",2
+In a state of peaceful acceptance of the current situation. (Neutral),2
+Taking a break from strong emotions and focusing on reason. (Neutral),2
+"Today's a day for observation and analysis, not judgment. (Neutral)",2
+"My mood is like a neutral color palette, versatile and adaptable. (Neutral)",2
+"Neither optimistic nor pessimistic, just holding a balanced perspective. (Neutral)",2
+Approaching the day with a sense of open-mindedness. (Neutral),2
+"Not feeling the need to force any emotions, just letting things be. (Neutral)",2
+Today's a day for a mental and emotional reset. (Neutral),2
+Taking a step back from the emotional rollercoaster and finding stillness. (Neutral),2
+"In a state of quietude, observing the world without judgment. (Neutral)",2
+"Neither seeking excitement nor avoiding challenges, just finding a middle ground. (Neutral)",2
+"My mood today is like a gentle hum, a steady and peaceful state. (Neutral)",2
+"Feeling a sense of equanimity, a balanced state of mind. (Neutral)",2
+"Today, I'm choosing to focus on the positive without ignoring the negative. (Neutral)",2
+"Approaching things with a wait-and-see attitude, not jumping to conclusions. (Neutral)",2
+"In a state of emotional neutrality, ready to respond to whatever arises. (Neutral)",2
+"Neither craving nor rejecting anything, just experiencing the present moment. (Neutral)",2
+"My mood today is like a neutral light, illuminating the world around me without casting shadows. (Neutral)",2
+Taking a break from emotional extremes and finding a sense of calm. (Neutral),2
+"Today's a day for introspection and self-discovery, without judgment. (Neutral)",2
+"Neither seeking validation nor fearing rejection, just existing authentically. (Neutral)",2
+"My emotional state is like a blank page, waiting to be written on by experiences. (Neutral)",2
+"Feeling a sense of indifference today, not particularly drawn to anything. (Neutral)",2
+I'm going through a tough time right now and could really use someone to talk to. Is there anyone available?,3
+Things have been feeling a bit overwhelming lately. Would you be willing to lend an ear for a few minutes?,3
+I'm feeling a little discouraged and could use some support. Is there someone I can chat with?,3
+I'm not in the best headspace right now. Would you mind if I talked about what's on my mind?,3
+Feeling a bit stuck and could use a friendly conversation. Is there a good time to chat?,3
+Things haven't been feeling quite right lately. Would you be open to listening for a moment?,3
+I'm feeling a bit down today. Would you mind if I vented a little?,3
+I'm struggling with something right now and could use a supportive ear. Is that alright?,3
+Feeling a bit lost and could use some guidance. Would you be willing to talk?,3
+I'm not feeling myself today. Is there someone I can talk to about it?,3
+Needing some encouragement right now. Would you mind if I chatted with you for a bit?,3
+Feeling a little out of sorts today. Would you be open to talking things through?,3
+Going through a bit of a rough patch. Is it okay if I vent for a few minutes?,3
+Feeling overwhelmed by things lately. Would you be willing to lend a listening ear?,3
+Just need someone to talk to about what's on my mind. Is there a good time to chat?,3
+Feeling a bit discouraged and could use some support. Is there someone I can talk with?,3
+Going through a challenging situation right now. Would you mind if I vented a little?,3
+Feeling a bit lost and could use some guidance. Would you be willing to talk?,3
+Needing a shoulder to lean on today. Is there someone I can talk to about it?,3
+Feeling a bit out of sorts today. Would you be open to talking things through?,3
+"I'm not sure who else to turn to, but I could really use someone to talk to.",3
+Things haven't been feeling quite right lately. Is there a good time to chat?,3
+"I'm feeling a little down today, and I could use a listening ear.",3
+"I'm struggling with something right now, and I could use some support.",3
+"I'm feeling overwhelmed, and I could use someone to talk to about it.",3
+I'm not feeling myself today. Is there someone who can lend a listening ear?,3
+"I'm feeling a bit discouraged, and I could use some encouragement.",3
+"I'm feeling a bit out of sorts today, and I could use someone to talk with.",3
+"I'm going through a challenging situation right now, and I could use some support.",3
+"I'm not sure who else to turn to, but I could use a friendly conversation.",3
+"I'm hesitant to bring this up, but I'm feeling a bit lost and could use some guidance. Is there anyone available to chat?",3
+I'm reaching out because I'm feeling a little out of my depth right now. Would you be willing to lend a listening ear?,3
+"This might seem out of the blue, but I'm going through a tough time and could use some support. Is there someone I can talk to?",3
+"I know it's not ideal timing, but I'm feeling down and could use a friendly conversation. Would you mind if I chatted for a bit?",3
+"I'm not usually one to ask for help, but I'm feeling a bit stuck. Would you be open to talking things through?",3
+"Feeling a little vulnerable right now, but I could use a supportive ear. Is there a good time to chat?",3
+"I'm hesitant to burden anyone, but I'm feeling overwhelmed by things lately. Would you mind if I vented for a few minutes?",3
+"This might sound silly, but I'm feeling a bit discouraged and could use some encouragement. Is there someone who can help?",3
+"I'm reaching out because I value your opinion, and I'm feeling a bit lost right now. Would you be willing to offer some guidance?",3
+"I know I don't always ask for help, but I'm feeling a bit out of sorts today. Is there someone I can talk with about it?",3
+"Sometimes talking things out helps. I'm feeling a bit down today, and I was hoping to find someone to chat with.",3
+"I'm not sure if this is something you can help with, but I'm struggling with something right now. Would you be open to listening?",3
+"I'm hesitant to reach out, but I'm going through a tough time, and even a listening ear would be helpful.",3
+Is there anyone available to chat for a bit? I'm feeling a bit lost and could use some guidance.,3
+"I know I don't burden people often, but I'm feeling discouraged right now. Would you be open to talking?",3
+Sometimes venting can help. Would you mind if I talked about what's been on my mind?,3
+I'm reaching out because things have been feeling out of control lately. Is there someone who can offer some support?,3
+"This feels a bit overwhelming, and I could use someone to talk to about it.",3
+"I'm feeling a little down today, and I was hoping to find someone to chat with.",3
+"I'm struggling with something right now, and I could use a listening ear.",3
+"I'm feeling overwhelmed by things lately, and I could use some support.",3
+"I'm not sure if this is the right place, but I could use someone to talk to.",3
+"Things haven't been feeling quite right lately, and I was hoping to find someone to talk with.",3
