@@ -48,11 +48,15 @@ def predict_mental_health(Text):
     prediction = model.predict(vectorized_text)
     return prediction[0]
 
-new_text = "i am not good in mood any more now"
+new_text = "i am feeling like not doing any thing. Can you talk to me?"
 prediction = predict_mental_health(new_text)
 print('Prediction:', predict_mental_health(new_text))
 
-if (prediction == 1):
+if (prediction == 0):
+    print("Good mental health")
+elif(prediction == 1):
     print("Depression and Anxiety")
+elif(prediction == 2):
+    print("You are in good mood do something that makes you happy!!")
 else:
-    print("Good Mental Health")
+    print("Let me connect you with someone to help you out!!")
