@@ -290,6 +290,15 @@
             align-items: center;
         }
 
+        .logo{
+          align-items: center;
+          color: rgb(20, 65, 104);
+          text-decoration: none;
+          font-size: 2rem;
+          font-weight: 700;
+          justify-content: space-between;
+        }
+
         .navu a, .dropbtn {
             color: rgb(12, 28, 57);
             text-decoration: none;
@@ -386,7 +395,7 @@
 <body>
     <div class="main">
         <header class="header">
-            <a href="{{url_for('home')}}" style="font-size: 2rem; text-decoration: none; font: bold; color: #081c2e;">
+            <a href="{{url_for('home')}}" class="logo" >
                 <img src="{{ url_for('static', filename='logo.png') }}" alt="logo" height="50"> Mental Health Support
             </a>
             <nav class="navu">
