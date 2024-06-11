@@ -1,3 +1,4 @@
+import warnings
 from flask import Flask, request, jsonify, render_template
 import pandas as pd
 import nltk
@@ -8,6 +9,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report, accuracy_score
+
+# Suppress the specific FutureWarning from sklearn
+warnings.filterwarnings("ignore", category=FutureWarning, module="sklearn.utils.validation")
 
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -33,7 +37,7 @@ def preprocess_text(Text):
     return ' '.join(tokens)
 
 # Load and preprocess the data
-data = pd.read_csv('TEST_Codes/datam.csv')
+data = pd.read_csv('D:\Codes\Python For DS\Kriyeta App\TEST_Codes\datam.csv')
 data['processed_text'] = data['Text'].apply(preprocess_text)
 
 vectorizer = TfidfVectorizer(max_features=5000)
