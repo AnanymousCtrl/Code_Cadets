@@ -1,3 +1,4 @@
+from flask import Flask, request, jsonify, render_template
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
@@ -11,6 +12,8 @@ from sklearn.metrics import classification_report, accuracy_score
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+
+app = Flask(__name__)
 
 def preprocess_text(Text):
     tokens = word_tokenize(Text.lower())
@@ -29,7 +32,8 @@ def preprocess_text(Text):
     tokens = [lemmatizer.lemmatize(word) for word in processed_tokens]
     return ' '.join(tokens)
 
-data = pd.read_csv('TEST_Codes\datam.csv')
+# Load and preprocess the data
+data = pd.read_csv('TEST_Codes/datam.csv')
 data['processed_text'] = data['Text'].apply(preprocess_text)
 
 vectorizer = TfidfVectorizer(max_features=5000)
@@ -51,15 +55,23 @@ def predict_mental_health(Text):
     prediction = model.predict(vectorized_text)
     return prediction[0]
 
-new_text = "I am not feeling happy"
-prediction = predict_mental_health(new_text)
-print('Prediction:', predict_mental_health(new_text))
+@app.route('/')
+def home():
+    return render_template('index.html')
 
-if (prediction == 0):
-    print("Good mental health")
-elif(prediction == 1):
-    print("Depression and Anxiety")
-elif(prediction == 2):
-    print("You are in good mood do something that makes you happy!!")
-else:
-    print("Let me connect you with someone to help you out!!")
+@app.route('/predict', methods=['POST'])
+def predict():
+    user_input = request.form['text']
+    prediction = predict_mental_health(user_input)
+    if prediction == 0:
+        result = "Good mental health"
+    elif prediction == 1:
+        result = "Depression and Anxiety"
+    elif prediction == 2:
+        result = "You are in good mood do something that makes you happy!!"
+    else:
+        result = "Let me connect you with someone to help you out!!"
+    return jsonify({'prediction': result})
+
+if __name__ == '__main__':
+    app.run(debug=True)
